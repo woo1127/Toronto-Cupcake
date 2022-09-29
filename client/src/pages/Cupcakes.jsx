@@ -24,7 +24,8 @@ export default function Cupcakes() {
     }, [])
 
     useEffect(() => {
-        fetch('https://toronto-cupcake.herokuapp.com/product')
+        // fetch('https://toronto-cupcake.herokuapp.com/product')
+        fetch('https://toronto-cupcake.up.railway.app/product')
             .then((res) => res.json())
             .then((data) => {              
                 setCupcakes(data.cupcakes)

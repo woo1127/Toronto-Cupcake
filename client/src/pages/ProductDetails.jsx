@@ -11,7 +11,7 @@ export default function ProductDetails() {
     const [count, setCount] = useState(1)
 
     useEffect(() => {
-        fetch(`https://toronto-cupcake.herokuapp.com/product/find/${location.pathname.split('/')[2]}/${location.pathname.split('/')[3]}`)
+        fetch(`https://toronto-cupcake.up.railway.app/product/find/${location.pathname.split('/')[2]}/${location.pathname.split('/')[3]}`)
             .then((res) => res.json())
             .then((data) => {
                 setData(data)

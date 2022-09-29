@@ -8,7 +8,6 @@ api = Api(app)
 CORS(app)
 
 @app.route('/')
-@cross_origin
 def index():
     return {"message": "success"}
 
