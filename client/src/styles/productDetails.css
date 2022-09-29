@@ -1,0 +1,107 @@
+@import url('index.css');
+
+.product {
+    margin: 3rem 6vw;
+    padding: 3rem 0;
+    box-shadow: 0.5px 0.5px 5px #ccc;
+    background-color: #fff;
+    display: flex;
+    gap: 2rem;
+}
+
+.product__image {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__image img {
+    padding: 3rem 0 3rem 2rem;
+    padding-bottom: 7rem;
+    height: 70vh;
+    object-fit: contain;
+}
+
+.product__content {
+    margin-right: 3rem;
+    flex: 3;
+}
+
+.product__title {
+    color: var(--color-heading);
+    font-size: var(--fs-600);
+    margin-bottom: 2.5rem;
+}
+
+.product__price {
+    color: var(--color-accent);
+    font-size: var(--fs-800);
+    letter-spacing: 1.5px;
+    margin-bottom: 2.5rem;
+}
+
+.product__description-title {
+    font-size: var(--fs-500);
+}
+
+.product__description {
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+}
+
+.product__quantity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.product__quantity p {
+    margin-right: 3rem;
+}
+
+.quantity-button {
+    display: flex;
+}
+
+.plus-button, .minus-button {
+    background-color: #fff;
+    outline: 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 0.2em 0.6em;
+    cursor: pointer;
+}
+
+.quantity-input {
+    text-align: center;
+    width: 60px;
+    border: 1px solid #ccc;
+}
+
+.quantity-input:invalid {
+    outline: 0;
+    border: 2px solid red;
+}
+
+.add-button {
+    padding: 0.3em 1em;
+    outline: 0;
+    border: 1.5px solid var(--color-accent);
+    border-radius: 3px;
+    background-color: #8546F015;
+    color: var(--color-accent);
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.buy-button {
+    padding: 0.4em 1em;
+    outline: 0;
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+    background-color: var(--color-accent);
+    cursor: pointer;
+}
+

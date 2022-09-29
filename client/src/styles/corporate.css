@@ -1,0 +1,70 @@
+@import url(index.css);
+
+hr {
+    width: 15%;
+    height: 5px;
+    border: none;
+    background: #8546f0;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 15%;
+}
+
+.brands {
+    margin-inline: 200px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 7rem 0;
+    margin-top: 5rem;
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+    justify-self: center;
+}
+
+
+.center-text {
+    text-align: center;
+    padding: 10px;
+}
+
+.margin-text {
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.testimonial {
+    background-color: var(--color-background);
+    display: grid;
+    margin-inline: 100px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+.testimonial-image {
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+.testimonial-image2 {
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.testimonial-text {
+    text-align: center;
+    margin-top: 20px;
+}
